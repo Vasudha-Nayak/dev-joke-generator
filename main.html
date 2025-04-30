@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Dev Jokes Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="toggle-container">
+        <label class="toggle">
+            <input type="checkbox" onclick="toggleDarkMode()">
+            <span>🌙</span>
+        </label>
+    </div>
+    <h1>🤖 Dev Jokes</h1>
+    <p id="joke">Click below to laugh!</p>
+    <button onclick="getJoke()">Next Joke</button>
+    <button onclick="copyJoke()" class="copy-btn">📋 Copy Joke</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
