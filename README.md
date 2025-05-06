@@ -8,7 +8,7 @@ A fun website that generates random programming/developer jokes for a quick laug
 - Easy to customize/add your own jokes.  
 
 # How to Use  
-- Open index.html in your browser.
+- Open main.html in your browser.
 - Click the **"Generate Joke"** button.   
 
 # Technologies Used : HTML, CSS, JavaScript  
